@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 from datetime import datetime
-import google.generativeai as genai
+import google.generativeai
 
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Catholic Mind & Heart", page_icon="🌿", layout="centered")
